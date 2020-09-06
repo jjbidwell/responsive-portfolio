@@ -1,3 +1,24 @@
-h1 {
-    color: red;
+body {
+    background: rgb(0,205,79);
+    background: linear-gradient(90deg, rgba(0,205,79,1) 36%, rgba(223,251,232,1) 100%);
+}
+
+.container {
+    background-color: whitesmoke;
+    color: black;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.heading {
+    padding: 20px 0;
+}
+
+#profile-pic {
+    float: left;
+    margin: 0 15px 5px 0;
+}
+
+.about-me {
+    line-height: 150%;
 }
