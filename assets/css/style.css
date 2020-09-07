@@ -29,6 +29,24 @@ body {
     width: 100%;
 }
 
+.img-container {
+    overflow: hidden;
+}
+
+.img-zoom {
+    transition: transform .2s;
+}
+
+.img-zoom:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+
+.portfolio-link {
+    font-size: 20px;
+}
+
 label {
     font-size: 20px;
 }
@@ -45,12 +63,12 @@ label {
     background-color: whitesmoke;
 }
 
-.footer-link {
+.footer-link, .portfolio-link {
     color: black;
     transition: color .25s;
 }
 
-.footer-link:hover {
+.footer-link:hover, .portfolio-link:hover {
     color: #001ca7;
 }
 
