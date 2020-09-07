@@ -5,7 +5,6 @@ body {
 }
 
 #main {
-    background-color: whitesmoke;
     color: black;
     padding: 50px;
     margin-top: 50px; 
@@ -27,4 +26,13 @@ body {
 
 .full-page {
     width: 100%;
+}
+
+.footer-text {
+    color: black;
+}
+
+.footer-content {
+    padding-top: 25px;
+    font-size: 16px;
 }
