@@ -29,6 +29,22 @@ body {
     width: 100%;
 }
 
+label {
+    font-size: 20px;
+}
+
+#submit {
+    background-color: rgba(122,143,250,1);
+    color: whitesmoke;
+    transition: color .25s, background-color .25s;
+    border: 2px rgba(122,143,250,1) solid;
+}
+
+#submit:hover {
+    color: rgba(122,143,250,1);
+    background-color: whitesmoke;
+}
+
 .footer-link {
     color: black;
     transition: color .25s;
