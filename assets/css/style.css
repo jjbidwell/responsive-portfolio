@@ -1,7 +1,6 @@
 body {
-    background: rgb(0,205,79);
-    background: linear-gradient(90deg, rgba(0,205,79,1) 36%, rgba(223,251,232,1) 100%);
-    width: 100%;
+    background: rgb(133,146,190);
+    background: radial-gradient(circle, rgba(133,146,190,1) 14%, rgba(122,143,250,1) 74%);
 }
 
 #main {
@@ -13,6 +12,7 @@ body {
 .heading {
     padding: 20px 0;
 }
+
 
 #profile-pic {
     float: left;
@@ -28,8 +28,13 @@ body {
     width: 100%;
 }
 
-.footer-text {
+.footer-link {
     color: black;
+    transition: color .25s;
+}
+
+.footer-link:hover {
+    color: #001ca7;
 }
 
 .footer-content {
