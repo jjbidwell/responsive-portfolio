@@ -70,6 +70,7 @@ label {
 
 .footer-link:hover, .portfolio-link:hover {
     color: #001ca7;
+    text-decoration: none;
 }
 
 .footer-content {
