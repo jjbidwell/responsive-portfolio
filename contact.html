@@ -32,22 +32,43 @@
 
       <!--contact-->
       <main class="container rounded bg-light" id="main">
-        <h1 class="border-bottom heading">Contact Me</h1>
-        <form>
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="email" class="form-control" id="name" name="name">
+      <h1 class="border-bottom heading">Contact Me</h1>
+        <div class="row">
+          <div class="col-lg-8">
+          <form>
+            <div class="row">
+            <div class="col-lg-6">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="email" class="form-control" id="name" name="name">
+            </div>
+            </div>
+            <div class="col-lg-6">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="email" name="email">
+            </div>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="email" name="email">
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea type="text" class="form-control" name="message" id="message" rows="8">Type your message here</textarea>
+            </div>
+            <button type="submit" id="submit" class="btn btn-lg">Submit</button>
+          </form>
+        </div>
+        <div class="border-left col-lg-4">
+          <div class="row">
+            <h3 class="border-bottom">Social Media</h3>
           </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea type="text" class="form-control" name="message" id="message" rows="8">Type your message here</textarea>
+          <div class="row">
+            <a href="#" class="border-bottom">Facebook</a>
           </div>
-          <button type="submit" id="submit" class="btn btn-lg">Submit</button>
-        </form>
+          <div class="row">
+            <a href="#" class="border-bottom">Twitter</a>
+          </div>
+        </div>
+      </div>
       </main>
 
     <!--Footer-->
