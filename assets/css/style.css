@@ -63,6 +63,10 @@ label {
     background-color: whitesmoke;
 }
 
+.bio-link {
+    color: #001ca7;
+}
+
 .footer-link, .portfolio-link {
     color: black;
     transition: color .25s;
