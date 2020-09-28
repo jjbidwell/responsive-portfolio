@@ -12,6 +12,7 @@ There is a style.css file attached to the project, but I tried to keep that limi
 *text-decoration for links
 *transition and transform properties that change link text and images when hovered over
 
+EDIT- 9/27/2020 : The page has been updated with a link to my GitHub, resume, email, and my phone number has been added"
 
 Links
 
