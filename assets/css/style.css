@@ -52,3 +52,8 @@ label, .about-me, .portfolio-link{
     text-decoration: none;
 }
 
+.github-link:hover {
+    color: #001ca7;
+    text-decoration: none;
+
+}
