@@ -14,6 +14,8 @@ There is a style.css file attached to the project, but I tried to keep that limi
 
 EDIT- 9/27/2020 : The page has been updated with a link to my GitHub, resume, email, and my phone number has been added"
 
+EDIT- 10/25/2020 : I have added more of my work to my portfolio, updated my resume, GitHub profile and LinkedIn profile to reflect proficiency in node and MySQL.
+
 Links
 
 Deployed app main page: 
